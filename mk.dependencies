@@ -1,5 +1,9 @@
 [
  {
+   "repository": "android_vendor_lge_e980",
+   "target_path": "vendor/lge/e980"
+ },
+ {
    "repository": "android_device_lge_gproj-common",
    "target_path": "device/lge/gproj-common"
  },
