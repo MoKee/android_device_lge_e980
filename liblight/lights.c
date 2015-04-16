@@ -256,7 +256,7 @@ set_light_attention(struct light_device_t* dev,
     g_attention = *state;
     /*
      * attention logic tweaks from:
-     * https://github.com/CyanogenMod/android_device_samsung_d2-common/commit/6886bdbbc2417dd605f9818af2537c7b58491150
+     * https://github.com/MoKee/android_device_samsung_d2-common/commit/6886bdbbc2417dd605f9818af2537c7b58491150
     */
     if (state->flashMode == LIGHT_FLASH_HARDWARE) {
         if (g_attention.flashOnMS > 0 && g_attention.flashOffMS == 0) {
