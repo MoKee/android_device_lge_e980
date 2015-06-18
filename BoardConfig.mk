@@ -46,6 +46,9 @@ BOARD_RECOVERY_SWIPE := true
 
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2621440000 # 2500M. Actually 2560, but hold some in reserve
 
+BOARD_SEPOLICY_DIRS += \
+        device/lge/e980/sepolicy
+
 -include vendor/lge/e980/BoardConfigVendor.mk
 
 TARGET_OTA_ASSERT_DEVICE := e986,e980,geefhd,e988,gkatt
